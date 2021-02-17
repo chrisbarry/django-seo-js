@@ -166,7 +166,7 @@ If you know a page's contents have changed, some backends allow you to manually 
 ```python
 from django_seo_js.helpers import update_cache_for_url
 
-update_cache_for_url("/my-url")
+update_cache_for_url("https://www.my-domain.com/my-url")
 ```
 
 So, for instance, you might want something like:
